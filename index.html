@@ -15,6 +15,8 @@
    <title>Shalom | home</title>
    <!-- bootstrap core css -->
    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
    <!-- font awesome style -->
    <link href="css/font-awesome.min.css" rel="stylesheet" />
    <!-- Custom styles for this template -->
@@ -33,7 +35,7 @@
                   SHALOM
                   <!-- <img width="250" src="images/logo.png" alt="#" /> -->
                </a>
-               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+               <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                   aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class=""> </span>
                </button>
@@ -42,16 +44,18 @@
                      <li class="nav-item active">
                         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                      </li>
-                     <!-- <li class="nav-item dropdown">
-                           <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> <span class="nav-label">Pages <span class="caret"></span></a>
-                           <ul class="dropdown-menu">
-                              <li><a href="about.html">About</a></li>
-                              <li><a href="testimonial.html">Testimonial</a></li>
+                     <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> <span class="nav-label">Products <span class="caret"></span></a>
+                           <ul class="dropdown-menu " style="height: 11rem;">
+                              <li><a href="">Indoor</a></li>
+                              <li><a href="">Outdoor</a></li>
+                              <li><a href="">Others</a></li>
+                              <li><a href="product.html">All Products</a></li>
                            </ul>
-                        </li> -->
-                     <li class="nav-item">
+                        </li> 
+                     <!-- <li class="nav-item active">
                         <a class="nav-link" href="product.html">Products</a>
-                     </li>
+                     </li> -->
                      <!-- <li class="nav-item">
                            <a class="nav-link" href="blog_list.html">Blog</a>
                         </li> -->
@@ -234,7 +238,7 @@
       <!-- end slider section -->
    </div>
    <!-- why section -->
-   <section class="why_section layout_padding">
+   <!-- <section class="why_section layout_padding">
       <div class="container">
          <div class="heading_container heading_center">
             <h2>
@@ -490,7 +494,7 @@
             </div>
          </div>
       </div>
-   </section>
+   </section> -->
    <!-- end why section -->
 
    <!-- arrival section -->
@@ -511,9 +515,232 @@
                      Vitae fugiat laboriosam officia perferendis provident aliquid voluptatibus dolorem, fugit ullam sit
                      earum id eaque nisi hic? Tenetur commodi, nisi rem vel, ea eaque ab ipsa, autem similique ex unde!
                   </p>
-                  <a href="">
+                  <!-- <a href="">
+                     Shop Now
+                  </a> -->
+                  <a href="" class="" data-bs-toggle="modal" data-bs-target="#exampleModal">
                      Shop Now
                   </a>
+               </div>
+            </div>
+            <div>
+               <!-- Button trigger modal -->
+
+
+               <!-- Modal -->
+               <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog modal-fullscreen">
+                     <div class="modal-content">
+                        <div class="modal-header">
+                           <h1 class="modal-title fs-5" id="exampleModalLabel">Newly Added Items</h1>
+                           <button type="button" class="btn-close border-0" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                           <section class="product_section layout_padding">
+                              <div class="container">
+                                 <div class="heading_container heading_center">
+                                    <h2>
+                                       New <span>products</span>
+                                    </h2>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-sm-6 col-md-4 col-lg-3">
+                                       <div class="box">
+                                          <div class="option_container">
+                                             <div class="options">
+                                                <a href="" class="option2">
+                                                   Buy Now
+                                                </a>
+                                             </div>
+                                          </div>
+                                          <div class="img-box">
+                                             <img src="images/bed.jpg" alt="">
+                                          </div>
+                                          <div class="detail-box">
+                                             <h5>
+                                                Stripped Bed sheets
+                                             </h5>
+                                             <h6>
+                                                100,000
+                                             </h6>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4 col-lg-3">
+                                       <div class="box">
+                                          <div class="option_container">
+                                             <div class="options">
+                                                <a href="" class="option2">
+                                                   Buy Now
+                                                </a>
+                                             </div>
+                                          </div>
+                                          <div class="img-box">
+                                             <img src="images/bulb.jpg" alt="">
+                                          </div>
+                                          <div class="detail-box">
+                                             <h5>
+                                                Bright light
+                                             </h5>
+                                             <h6>
+                                                320,000
+                                             </h6>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4 col-lg-3">
+                                       <div class="box">
+                                          <div class="option_container">
+                                             <div class="options">
+                                                <a href="" class="option2">
+                                                   Buy Now
+                                                </a>
+                                             </div>
+                                          </div>
+                                          <div class="img-box">
+                                             <img src="images/mos.jpg" alt="">
+                                          </div>
+                                          <div class="detail-box">
+                                             <h5>
+                                                Colored mosquito net
+                                             </h5>
+                                             <h6>
+                                                50,000
+                                             </h6>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4 col-lg-3">
+                                       <div class="box">
+                                          <div class="option_container">
+                                             <div class="options">
+                                                <a href="" class="option2">
+                                                   Buy Now
+                                                </a>
+                                             </div>
+                                          </div>
+                                          <div class="img-box">
+                                             <img src="images/dengao.jpg" alt="">
+                                          </div>
+                                          <div class="detail-box">
+                                             <h5>
+                                                Laptop bag
+                                             </h5>
+                                             <h6>
+                                                40,000
+                                             </h6>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4 col-lg-3">
+                                       <div class="box">
+                                          <div class="option_container">
+                                             <div class="options">
+                                                <a href="" class="option2">
+                                                   Buy Now
+                                                </a>
+                                             </div>
+                                          </div>
+                                          <div class="img-box">
+                                             <img src="images/bed.jpg" alt="">
+                                          </div>
+                                          <div class="detail-box">
+                                             <h5>
+                                                Stripped Bed sheets
+                                             </h5>
+                                             <h6>
+                                                100,000
+                                             </h6>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4 col-lg-3">
+                                       <div class="box">
+                                          <div class="option_container">
+                                             <div class="options">
+                                                <a href="" class="option2">
+                                                   Buy Now
+                                                </a>
+                                             </div>
+                                          </div>
+                                          <div class="img-box">
+                                             <img src="images/bulb.jpg" alt="">
+                                          </div>
+                                          <div class="detail-box">
+                                             <h5>
+                                                Bright light
+                                             </h5>
+                                             <h6>
+                                                320,000
+                                             </h6>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4 col-lg-3">
+                                       <div class="box">
+                                          <div class="option_container">
+                                             <div class="options">
+                                                <a href="" class="option2">
+                                                   Buy Now
+                                                </a>
+                                             </div>
+                                          </div>
+                                          <div class="img-box">
+                                             <img src="images/mos.jpg" alt="">
+                                          </div>
+                                          <div class="detail-box">
+                                             <h5>
+                                                Colored mosquito net
+                                             </h5>
+                                             <h6>
+                                                50,000
+                                             </h6>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4 col-lg-3">
+                                       <div class="box">
+                                          <div class="option_container">
+                                             <div class="options">
+                                                <a href="" class="option2">
+                                                   Buy Now
+                                                </a>
+                                             </div>
+                                          </div>
+                                          <div class="img-box">
+                                             <img src="images/dengao.jpg" alt="">
+                                          </div>
+                                          <div class="detail-box">
+                                             <h5>
+                                                Laptop bag
+                                             </h5>
+                                             <h6>
+                                                40,000
+                                             </h6>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="btn-box">
+                                    <a href="">
+                                       previous
+                                    </a>
+                                    <a href="">
+                                       1
+                                    </a>
+                                    <a href="">
+                                       2
+                                    </a>
+                                    <a href="">
+                                       next
+                                    </a>
+                                 </div>
+                              </div>
+                           </section>
+                        </div>
+                     </div>
+                  </div>
                </div>
             </div>
          </div>
@@ -530,7 +757,7 @@
             </h2>
          </div>
          <div class="row">
-            <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-4">
                <div class="box">
                   <div class="option_container">
                      <div class="options">
@@ -542,7 +769,7 @@
                   <div class="img-box">
                      <img src="images/bed.jpg" alt="">
                   </div>
-                  <div class="detail-box">
+                  <div class="detail-box d-">
                      <h5>
                         Stripped Bed sheets
                      </h5>
@@ -552,7 +779,7 @@
                   </div>
                </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-4">
                <div class="box">
                   <div class="option_container">
                      <div class="options">
@@ -574,7 +801,7 @@
                   </div>
                </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-4">
                <div class="box">
                   <div class="option_container">
                      <div class="options">
@@ -596,7 +823,7 @@
                   </div>
                </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-4">
                <div class="box">
                   <div class="option_container">
                      <div class="options">
@@ -620,7 +847,7 @@
             </div>
          </div>
          <div class="btn-box">
-            <a href="">
+            <a href="product.html">
                View All products
             </a>
          </div>
@@ -637,7 +864,7 @@
             </h2>
          </div>
          <div class="row">
-            <a href="" class="col-sm-6 col-md-4 col-lg-4 nav-link text-secondary">
+            <a href="" class="col-6 col-sm-6 col-md-4 col-lg-4 nav-link text-secondary">
                <div class="box">
                   <!-- <div class="option_container">
                      <div class="options">
@@ -662,7 +889,7 @@
                   </div>
                </div>
             </a>
-            <a href="" class="col-sm-6 col-md-4 col-lg-4 nav-link text-secondary">
+            <a href="" class="col-6 col-sm-6 col-md-4 col-lg-4 nav-link text-secondary">
                <div class="box">
                   <!-- <div class="option_container">
                      <div class="options">
@@ -687,7 +914,7 @@
                   </div>
                </div>
             </a>
-            <a href="" class="col-sm-6 col-md-4 col-lg-4 nav-link text-secondary">
+            <a href="" class="col-6 col-sm-6 col-md-4 col-lg-4 nav-link text-secondary">
                <div class="box">
                   <!-- <div class="option_container">
                      <div class="options">
@@ -712,7 +939,7 @@
                   </div>
                </div>
             </a>
-            <a href="" class="col-sm-6 col-md-4 col-lg-4 nav-link text-secondary">
+            <a href="" class="col-6 col-sm-6 col-md-4 col-lg-4 nav-link text-secondary">
                <div class="box">
                   <!-- <div class="option_container">
                      <div class="options">
@@ -737,7 +964,7 @@
                   </div>
                </div>
             </a>
-            <a href="" class="col-sm-6 col-md-4 col-lg-4 nav-link text-secondary">
+            <a href="" class="col-6 col-sm-6 col-md-4 col-lg-4 nav-link text-secondary">
                <div class="box">
                   <!-- <div class="option_container">
                      <div class="options">
@@ -762,7 +989,7 @@
                   </div>
                </div>
             </a>
-            <a href="" class="col-sm-6 col-md-4 col-lg-4 nav-link text-secondary">
+            <a href="" class="col-6 col-sm-6 col-md-4 col-lg-4 nav-link text-secondary">
                <div class="box">
                   <!-- <div class="option_container">
                      <div class="options">
@@ -787,7 +1014,7 @@
                   </div>
                </div>
             </a>
-            <a href="" class="col-sm-6 col-md-4 col-lg-4 nav-link text-secondary">
+            <a href="" class="col-6 col-sm-6 col-md-4 col-lg-4 nav-link text-secondary">
                <div class="box">
                   <!-- <div class="option_container">
                      <div class="options">
@@ -813,7 +1040,7 @@
                </div>
             </a>
 
-            
+
          </div>
       </div>
    </section>
@@ -858,7 +1085,7 @@
                      <div class="img_container">
                         <div class="img-box">
                            <div class="img_box-inner">
-                              <img src="images/client.jpg" alt="">
+                              <img src="images/user.jpg" alt="">
                            </div>
                         </div>
                      </div>
@@ -882,7 +1109,7 @@
                      <div class="img_container">
                         <div class="img-box">
                            <div class="img_box-inner">
-                              <img src="images/client.jpg" alt="">
+                              <img src="images/user.jpg" alt="">
                            </div>
                         </div>
                      </div>
@@ -906,7 +1133,7 @@
                      <div class="img_container">
                         <div class="img-box">
                            <div class="img_box-inner">
-                              <img src="images/client.jpg" alt="">
+                              <img src="images/user.jpg" alt="">
                            </div>
                         </div>
                      </div>
@@ -943,8 +1170,8 @@
    <!-- footer start -->
    <footer>
       <div class="container">
-         <div class="row">
-            <div class="full col-lg-4">
+         <div class="d-flex flex-column flex-md-row">
+            <div class=" col-md-4 mb-5 mb-md-0">
                <div class="logo_footer">
                   <a href="#">
                      SHALOM
@@ -958,7 +1185,7 @@
                      repudiandae quisquam possimus aliquam aut!</p>
                </div>
             </div>
-            <div class="widget_menu col-lg-4 d-flex  flex-column align-items-lg-center">
+            <div class="widget_menu mb-5 mb-md-0 col-md-4 d-md-flex flex-md-column align-items-center">
                <h3>Menu</h3>
                <ul>
                   <li><a href="#">Home</a></li>
@@ -966,7 +1193,7 @@
                   <li><a href="#">Contact</a></li>
                </ul>
             </div>
-            <div class="widget_menu col-lg-4">
+            <div class="widget_menu col-md-4">
                <div>
                   <h3>Location</h3>
                </div>
@@ -993,6 +1220,9 @@
    <script src="js/popper.min.js"></script>
    <!-- bootstrap js -->
    <script src="js/bootstrap.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
    <!-- custom js -->
    <script src="js/custom.js"></script>
 </body>
